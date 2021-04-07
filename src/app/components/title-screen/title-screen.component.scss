@@ -26,7 +26,7 @@ div.title-screen {
 
   i.fa-cloud {
     color: white;
-    position: fixed;
+    position: absolute;
     z-index: 0;
 
     @keyframes cloud-big {
@@ -92,7 +92,8 @@ div.title-screen {
   }
 
   div.scroll-down {
-    position: relative;
+    position: absolute;
+    top: 80vh;
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -102,8 +103,6 @@ div.title-screen {
     color: white;
 
     p {
-      position: fixed;
-      bottom: 5vw;
       font-family: 'Crafter';
     }
 
@@ -113,8 +112,6 @@ div.title-screen {
     }
 
     i {
-      position: fixed;
-      bottom: 2vw;
       font-size: 5vw;
       animation-name: arrow;
       animation-duration: 1s;

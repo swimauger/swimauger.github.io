@@ -1,0 +1,30 @@
+<div class="about-me">
+  <h1>About Me</h1>
+  <hr class="load" (animationiteration)="toggleAboutMe($event)">
+  <div class="section">
+    <div class="swimmer">
+      <h2 (click)="showEngineer($event)">I'm a Swimmer <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-right"></i></h2>
+      <ul>
+        <li>At the age of 10 I swam my first swim meet.</li>
+        <li>At the age of 12 I had qualified for State.</li>
+        <li>At the age of 14 I had qualified for Mid-West Zones.</li>
+        <li>At the age of 16 I became a Scholastic All American.</li>
+        <li>At the age of 18 I was the fastest swimmer in the state of Illinois in the 200 Butterfly.</li>
+        <li>At the age of 20 I had qualified for the Canada Olympic Trials.</li>
+        <li>Endurance. Passion. Will. These are the traits of a good swimmer!</li>
+      </ul>
+      <img src="../../../assets/images/swimming-pool.svg">
+    </div>
+    <div class="engineer">
+      <h2 (click)="showSwimmer($event)">I'm a Software Engineer <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-right"></i></h2>
+      <ul>
+        <li>Learned to <i class="fas fa-heart"></i> programming in High School</li>
+        <li>Decided to major in Computer Science as a college student</li>
+        <li>Collabed with a team of students to create an Asset Manager for the School of Education</li>
+        <li>Built countless projects and libraries in my free time</li>
+        <li>Recieved Bachelor of Arts degree in Computer Science from the Purdue School of Science <i class="fas fa-graduation-cap"></i></li>
+      </ul>
+      <img src="../../../assets/images/programming.svg">
+    </div>
+  </div>
+</div>
