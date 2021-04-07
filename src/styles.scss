@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Crafter';
+  src: url(assets/fonts/Crafter-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Crafter Rough';
+  src: url(assets/fonts/Crafter-Rough.otf);
+}
+
+body {
+  margin: 0;
+}

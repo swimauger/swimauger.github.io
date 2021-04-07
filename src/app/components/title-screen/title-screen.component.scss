@@ -1,0 +1,124 @@
+div.title-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#2C90C4, #31CCB0);
+
+  h1 {
+    margin: 0;
+    color: white;
+    padding-top: 10vh;
+    font-size: 10vw;
+    font-family: 'Crafter';
+    z-index: 1;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Crafter Rough';
+    color: white;
+    z-index: 1;
+  }
+
+  i.fa-cloud {
+    color: white;
+    position: fixed;
+    z-index: 0;
+
+    @keyframes cloud-big {
+      from { left: 0vw }
+      to { left: 100vw }
+    }
+    
+    @keyframes cloud-medium {
+      from { left: 75vw }
+      to { left: 100vw }
+    }
+
+    &.big {
+      font-size: 25vw;
+      opacity: 0.3;
+      animation-name: cloud-big;
+      animation-fill-mode: forwards;
+      animation-duration: 90s;
+    }
+
+    &.medium {
+      font-size: 15vw;
+      opacity: 0.8;
+      left: 75vw;
+      bottom: 10vh;
+      animation-name: cloud-medium;
+      animation-fill-mode: forwards;
+      animation-duration: 60s;
+    }
+  }
+
+  div.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    @keyframes rainbow {
+      0% { color: white }
+      15% { color: red }
+      30% { color: orange }
+      45% { color: yellow }
+      60% { color: green }
+      75% { color: blue }
+      90% { color: indigo }
+      100% { color: violet }
+    }
+
+    i {
+      font-size: 4vw;
+      padding: 1vw;
+      color: white;
+    }
+
+    i:hover {
+      cursor: pointer;
+      animation-name: rainbow;
+      animation-timing-function: step-end;
+      animation-delay: 0;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+  div.scroll-down {
+    position: relative;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    color: white;
+
+    p {
+      position: fixed;
+      bottom: 5vw;
+      font-family: 'Crafter';
+    }
+
+    @keyframes arrow {
+      from { bottom: 2vw; opacity: 1; }
+      to { bottom: -2vw; opacity: 0; }
+    }
+
+    i {
+      position: fixed;
+      bottom: 2vw;
+      font-size: 5vw;
+      animation-name: arrow;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+  }
+}
