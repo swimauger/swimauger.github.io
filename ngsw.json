@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618002081582,
+  "timestamp": 1618002964445,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.68ecb005f110bcf77c65.js",
+        "/main.cb92705c9672d77d7fa8.js",
         "/polyfills.8c151b8375e767ff858f.js",
         "/resume.pdf",
         "/runtime.0e49e2b53282f40c8925.js",
@@ -82,8 +82,8 @@
     "/assets/images/swimming-pool.svg": "c4bc15f1af306dc8db0a0552f97c341a4d49e5ac",
     "/assets/images/trading.svg": "801bd846cb48b714f93fdd53d6ecc35b5bb0f405",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "208e81e7254a1530983443a0cf606781bbc051f1",
-    "/main.68ecb005f110bcf77c65.js": "310ace1bb38d5db50a403f076b56f964eb1d1396",
+    "/index.html": "9625687e3e4451444b1489a678fcc29f117355fb",
+    "/main.cb92705c9672d77d7fa8.js": "920076a9ee94fc6478cd4e67aa0b231395b10484",
     "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/resume.pdf": "0909fe212198bfea6c0e7083b60572290eaebf41",
     "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
