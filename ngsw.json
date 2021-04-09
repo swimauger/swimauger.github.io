@@ -1,0 +1,111 @@
+{
+  "configVersion": 1,
+  "timestamp": 1618002081582,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.68ecb005f110bcf77c65.js",
+        "/polyfills.8c151b8375e767ff858f.js",
+        "/resume.pdf",
+        "/runtime.0e49e2b53282f40c8925.js",
+        "/styles.290cac318e83d12fb42e.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Crafter-Regular.1199a1277657e08641e2.otf",
+        "/Crafter-Rough.3fe079567c6dfa238b36.otf",
+        "/GarmentDistrict-Regular.3687238d9b31ffbc2b23.otf",
+        "/assets/fonts/Crafter - Desktop Commercial Use License.pdf",
+        "/assets/fonts/Crafter-Regular.otf",
+        "/assets/fonts/Crafter-Rough.otf",
+        "/assets/fonts/GarmentDistrict-Regular.otf",
+        "/assets/fonts/OraqleScript.otf",
+        "/assets/fonts/OraqleSwash.otf",
+        "/assets/images/bird.svg",
+        "/assets/images/mail.svg",
+        "/assets/images/programming.svg",
+        "/assets/images/realtor.svg",
+        "/assets/images/swimmer-butterfly.svg",
+        "/assets/images/swimming-pool.svg",
+        "/assets/images/trading.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "github",
+      "patterns": [
+        "https:\\/\\/api\\.github\\.com"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 172800000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/Crafter-Regular.1199a1277657e08641e2.otf": "6d3e74f1729a29c60387f343144d5cb6d23d5208",
+    "/Crafter-Rough.3fe079567c6dfa238b36.otf": "72379587978b55740c63626e08b23b044621d7f7",
+    "/GarmentDistrict-Regular.3687238d9b31ffbc2b23.otf": "8fae7dbf3768410d715c9f1277c4340cf159ae00",
+    "/assets/fonts/Crafter - Desktop Commercial Use License.pdf": "9c72421785fc8f308b10b8465a4f27a9576c77cf",
+    "/assets/fonts/Crafter-Regular.otf": "6d3e74f1729a29c60387f343144d5cb6d23d5208",
+    "/assets/fonts/Crafter-Rough.otf": "72379587978b55740c63626e08b23b044621d7f7",
+    "/assets/fonts/GarmentDistrict-Regular.otf": "8fae7dbf3768410d715c9f1277c4340cf159ae00",
+    "/assets/fonts/OraqleScript.otf": "8e3d9b7128426cf3115e6bbaaead951e6f0cd384",
+    "/assets/fonts/OraqleSwash.otf": "07126c597f32fc968d7fec5a17e00ac6582cc4a1",
+    "/assets/images/bird.svg": "106db4fc6abf5a56e37589215884495b90f3d723",
+    "/assets/images/mail.svg": "ce0734d07dadf7117877624cd97fd1c1d3f86b53",
+    "/assets/images/programming.svg": "036cc5f31cbc7252d02bee0e6b5d63ab939d2005",
+    "/assets/images/realtor.svg": "f25c6cd3ff64975911f1f38a32d0e266be68d844",
+    "/assets/images/swimmer-butterfly.svg": "26e635d1bba101b279aa4c1fd07fde6e6b0619b2",
+    "/assets/images/swimming-pool.svg": "c4bc15f1af306dc8db0a0552f97c341a4d49e5ac",
+    "/assets/images/trading.svg": "801bd846cb48b714f93fdd53d6ecc35b5bb0f405",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "208e81e7254a1530983443a0cf606781bbc051f1",
+    "/main.68ecb005f110bcf77c65.js": "310ace1bb38d5db50a403f076b56f964eb1d1396",
+    "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/resume.pdf": "0909fe212198bfea6c0e7083b60572290eaebf41",
+    "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.290cac318e83d12fb42e.css": "fa3277a4abd06028ba2731412114793a899ccd1c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
