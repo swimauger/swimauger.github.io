@@ -2,7 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: 'job/plaid', redirectTo: '/' }
+  {
+    path: 'job',
+    children: [
+      { path: 'plaid', redirectTo: '/' }
+    ]
+  }
 ];
 
 @NgModule({
