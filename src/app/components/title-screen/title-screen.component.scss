@@ -29,22 +29,31 @@ div.title-screen {
     position: absolute;
     z-index: 0;
 
-    @keyframes cloud-big {
+    @keyframes cloud-big-start {
       from { left: 0vw }
       to { left: 100vw }
     }
+
+    @keyframes cloud-big {
+      from { left: -35vw }
+      to { left: 100vw }
+    }
     
-    @keyframes cloud-medium {
+    @keyframes cloud-medium-start {
       from { left: 75vw }
+      to { left: 100vw }
+    }
+
+    @keyframes cloud-medium {
+      from { left: -20vw }
       to { left: 100vw }
     }
 
     &.big {
       font-size: 25vw;
       opacity: 0.3;
-      animation-name: cloud-big;
-      animation-fill-mode: forwards;
-      animation-duration: 90s;
+      animation: cloud-big-start 90s, cloud-big 90s 90s infinite;
+      animation-timing-function: linear;
     }
 
     &.medium {
@@ -52,9 +61,8 @@ div.title-screen {
       opacity: 0.8;
       left: 75vw;
       bottom: 10vh;
-      animation-name: cloud-medium;
-      animation-fill-mode: forwards;
-      animation-duration: 60s;
+      animation: cloud-medium-start 30s, cloud-medium 90s 30s infinite;
+      animation-timing-function: linear;
     }
   }
 
