@@ -1,5 +1,5 @@
-- About Me
-- Skills
 - Experience
-- Projects
 - Contact
+
+- About Me
+  - Add swimming game
