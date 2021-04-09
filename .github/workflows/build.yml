@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: yarn
       
-      - name: Build gatsby project
+      - name: Build Angular project
         run: yarn run build:prod
       
       - name: Build the build branch with Github pages
