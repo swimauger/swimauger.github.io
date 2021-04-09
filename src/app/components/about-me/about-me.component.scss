@@ -2,6 +2,7 @@ div.about-me {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(#2C90C4, #31CCB0);
+  overflow: hidden;
 
   h1 {
     font-size: 48pt;
@@ -174,7 +175,6 @@ div.about-me {
         ul {
           margin: 0;
           width: 55vw;
-          margin-top: 3vw;
         }
         img {
           width: 40vw;

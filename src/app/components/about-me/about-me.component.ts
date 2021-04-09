@@ -31,7 +31,6 @@ export class AboutMeComponent implements OnInit {
 
     const $hr = $swimmer?.parentElement?.previousElementSibling as HTMLElement;
     $hr.classList.remove('load');
-    console.log($hr);
     setTimeout(() => $hr.classList.add('load'), 10);
   }
 
@@ -45,7 +44,6 @@ export class AboutMeComponent implements OnInit {
 
     const $hr = $engineer?.parentElement?.previousElementSibling as HTMLElement;
     $hr.classList.remove('load');
-    console.log($hr);
     setTimeout(() => $hr.classList.add('load'), 10);
   }
 
