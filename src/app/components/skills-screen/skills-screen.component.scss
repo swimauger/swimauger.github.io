@@ -1,0 +1,146 @@
+div.skills-screen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(#31CCB0, #2C90C4);
+
+  h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    font-size: 36pt;
+    margin: 12pt;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: Futura;
+  }
+
+  h3 {
+    position: absolute;
+    bottom: 50vh;
+    left: 20vw;
+    font-size: 5vw;
+    margin: 12pt;
+    color: white;
+    font-family: Futura;
+    opacity: 0.5;
+  }
+
+  div.language {
+    width: 0;
+    position: absolute;
+    left: -200px;
+    font-family: Futura;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+
+    @keyframes fly {
+      from { left: -200px }
+      to { left: 100vw }
+    }
+
+    bird:hover {
+      cursor: pointer;
+    }
+
+    &.TypeScript {
+      animation: fly 10s linear 0s infinite;
+      color: #2b7489;
+    }
+
+    &.JavaScript {
+      animation: fly 11s linear 3s infinite;
+      color: #f1e05a;
+    }
+
+    &.Java {
+      animation: fly 13s linear 6s infinite;
+      color: #b07219;
+    }
+
+    &.Python {
+      animation: fly 14s linear 9s infinite;
+      color: #3572A5;
+    }
+
+    &.C\+\+ {
+      animation: fly 15s linear 12s infinite;
+      color: #f34b7d;
+    }
+
+    div.tooltip {
+      display: none;
+    }
+
+    &:hover {
+      animation-play-state: paused;
+      z-index: 5;
+      div.tooltip {
+        background: white;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+  
+        div.stars {
+          display: flex;
+          flex-direction: row;
+          color: rgb(249, 216, 73);
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          text-align: left;
+          width: 90%;
+          color: #555;
+          overflow: scroll;
+
+          li {
+            margin-bottom: 10px;
+            &.no-projects {
+              text-align: center;
+            }
+
+            div.link {
+              a {
+                color: #2b64cf;
+                text-decoration: none;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+
+              p {
+                color: #b90e0a;
+                font-size: 8pt;
+                font-style: italic;
+              }
+            }
+
+            p {
+              margin: 0;
+              font-size: 10pt;
+            }
+  
+            div.details {
+              font-size: 10pt;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 64pt;
+    }
+  }
+}

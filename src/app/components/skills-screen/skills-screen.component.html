@@ -1,0 +1,32 @@
+<div class="skills-screen">
+  <ng-container *ngFor="let language of stars | keyvalue">
+    <div *ngIf="language.key != null" [class]="'language ' + language.key">
+      <bird [color]="languageColors.get(language.key)"></bird>
+      <div class="tooltip">
+        <h2>{{ language.key }}</h2>
+        <div class="stars">
+          <i *ngFor="let i of language.value" class="fas fa-star"></i>
+        </div>
+        <ul>
+          <li *ngIf="!repos[language.key]" class="no-projects">No Projects Found</li>
+          <li *ngFor="let repo of repos[language.key]">
+            <div class="link">
+              <a [href]="repo.url" target="_blank">{{ repo.name }}</a>
+              <p *ngIf="repo.isSchoolWork">(School Assignment)</p>
+            </div>
+            <p>
+              {{ repo.description }}
+            </p>
+            <div class="details">
+              <i [style.color]="repo.color" class="fas fa-circle"></i> {{ repo.language }}
+              <i class="fas fa-star" title="Stars on GitHub"></i> {{ repo.stars }}
+              <i class="fas fa-code-branch" title="Forks on GitHub"></i> {{ repo.forks }}
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </ng-container>
+  <h3>Hover over the birds</h3>
+  <h1>Skills/Projects</h1>
+</div>
