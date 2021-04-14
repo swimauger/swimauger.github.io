@@ -1,0 +1,32 @@
+div.contact-me {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#095080, #073060);
+  overflow: hidden;
+
+  div.water {
+    position: absolute;
+    z-index: 0;
+    @keyframes shimmer {
+      0% { margin-left: 0; opacity: 0.05; }
+      50% { margin-left: -10px; opacity: 0.1; }
+      100% { margin-left: 0; opacity: 0.05; }
+    }
+    background-image: url('../../../assets/images/water-overlay.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    animation: shimmer 2s ease-in-out 0s infinite both;
+  }
+
+  svg {
+    position: absolute;
+    z-index: 1;
+    top: 35vh;
+    left: 0;
+
+    text:hover {
+      cursor: pointer;
+    }
+  }
+}
