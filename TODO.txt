@@ -1,5 +1,8 @@
-- Experience
-- Contact
-
+- Fix Mobile Compatibility
+- Job
+  - Custom job div
 - About Me
   - Add swimming game
+- Contact Me
+  - Boat racing game
+  - Replace hyperlink with form
