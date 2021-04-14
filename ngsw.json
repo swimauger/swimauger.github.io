@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618002964445,
+  "timestamp": 1618377340045,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.cb92705c9672d77d7fa8.js",
+        "/main.09cc2ee203d3aba7ff37.js",
         "/polyfills.8c151b8375e767ff858f.js",
         "/resume.pdf",
         "/runtime.0e49e2b53282f40c8925.js",
-        "/styles.290cac318e83d12fb42e.css"
+        "/styles.7867c4a15fd582328673.css"
       ],
       "patterns": []
     },
@@ -35,16 +35,30 @@
         "/assets/fonts/Crafter - Desktop Commercial Use License.pdf",
         "/assets/fonts/Crafter-Regular.otf",
         "/assets/fonts/Crafter-Rough.otf",
+        "/assets/fonts/GarmentDistrict - Desktop Commercial Use License.pdf",
         "/assets/fonts/GarmentDistrict-Regular.otf",
-        "/assets/fonts/OraqleScript.otf",
-        "/assets/fonts/OraqleSwash.otf",
         "/assets/images/bird.svg",
+        "/assets/images/boat/cruise.svg",
+        "/assets/images/boat/medium-cruise.svg",
+        "/assets/images/boat/medium-sailboat.svg",
+        "/assets/images/boat/medium-speedboat.svg",
+        "/assets/images/boat/sailboat.svg",
+        "/assets/images/boat/speedboat.svg",
+        "/assets/images/buoy.svg",
+        "/assets/images/chicago-reflection.svg",
+        "/assets/images/chicago.svg",
+        "/assets/images/jkv.png",
         "/assets/images/mail.svg",
+        "/assets/images/plane.svg",
         "/assets/images/programming.svg",
+        "/assets/images/raft.png",
         "/assets/images/realtor.svg",
         "/assets/images/swimmer-butterfly.svg",
         "/assets/images/swimming-pool.svg",
-        "/assets/images/trading.svg"
+        "/assets/images/trading.svg",
+        "/assets/images/tt.png",
+        "/assets/images/water-overlay.png",
+        "/water-overlay.e813cb1ac43edcdabebb.png"
       ],
       "patterns": []
     }
@@ -71,23 +85,37 @@
     "/assets/fonts/Crafter - Desktop Commercial Use License.pdf": "9c72421785fc8f308b10b8465a4f27a9576c77cf",
     "/assets/fonts/Crafter-Regular.otf": "6d3e74f1729a29c60387f343144d5cb6d23d5208",
     "/assets/fonts/Crafter-Rough.otf": "72379587978b55740c63626e08b23b044621d7f7",
+    "/assets/fonts/GarmentDistrict - Desktop Commercial Use License.pdf": "9c72421785fc8f308b10b8465a4f27a9576c77cf",
     "/assets/fonts/GarmentDistrict-Regular.otf": "8fae7dbf3768410d715c9f1277c4340cf159ae00",
-    "/assets/fonts/OraqleScript.otf": "8e3d9b7128426cf3115e6bbaaead951e6f0cd384",
-    "/assets/fonts/OraqleSwash.otf": "07126c597f32fc968d7fec5a17e00ac6582cc4a1",
     "/assets/images/bird.svg": "106db4fc6abf5a56e37589215884495b90f3d723",
+    "/assets/images/boat/cruise.svg": "6863cec6c158a991982004959759d7212f415be8",
+    "/assets/images/boat/medium-cruise.svg": "1ab71236e8420175e17da154b5e54ae64be30e17",
+    "/assets/images/boat/medium-sailboat.svg": "f53871ff2895cf4437a6cd6c0f172dcc2eebe679",
+    "/assets/images/boat/medium-speedboat.svg": "9445dbb0cbcf87b090fdf16d4116c25d61013b8f",
+    "/assets/images/boat/sailboat.svg": "eb081b7fad4e6af0a32c5b50784bebab49c02d47",
+    "/assets/images/boat/speedboat.svg": "b6d0a992055f9a40c2c58a4ac25afa21ab92c8a9",
+    "/assets/images/buoy.svg": "57c48df6e212003917d452b519d1962200153c53",
+    "/assets/images/chicago-reflection.svg": "75c5b8044b03d4d329bf2cad3f1c6995488e00b0",
+    "/assets/images/chicago.svg": "7a65121ebc6b73b1b4d8fd2b79602f13b78e78d6",
+    "/assets/images/jkv.png": "3780dd938ea242203f18dec1f6e2e5944c832101",
     "/assets/images/mail.svg": "ce0734d07dadf7117877624cd97fd1c1d3f86b53",
+    "/assets/images/plane.svg": "1ca00d1e53fbccc2bfdfe4160ce1fb7259d93e12",
     "/assets/images/programming.svg": "036cc5f31cbc7252d02bee0e6b5d63ab939d2005",
+    "/assets/images/raft.png": "f7cdea8e9e1ca580f59d04b83fa3024f9971063d",
     "/assets/images/realtor.svg": "f25c6cd3ff64975911f1f38a32d0e266be68d844",
     "/assets/images/swimmer-butterfly.svg": "26e635d1bba101b279aa4c1fd07fde6e6b0619b2",
     "/assets/images/swimming-pool.svg": "c4bc15f1af306dc8db0a0552f97c341a4d49e5ac",
     "/assets/images/trading.svg": "801bd846cb48b714f93fdd53d6ecc35b5bb0f405",
+    "/assets/images/tt.png": "41f9365ccf2ed79cd6c0b20cc7839a9aeda5a6b7",
+    "/assets/images/water-overlay.png": "dcdd6738b3ec9fef975de5e15091269e3ae9aaee",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "9625687e3e4451444b1489a678fcc29f117355fb",
-    "/main.cb92705c9672d77d7fa8.js": "920076a9ee94fc6478cd4e67aa0b231395b10484",
+    "/index.html": "55c9b4cfc3cd1b2fc7d32a9670d2a44f122810f3",
+    "/main.09cc2ee203d3aba7ff37.js": "1095f96cf12c81988ec5fda5fdf937c4550372c3",
     "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/resume.pdf": "0909fe212198bfea6c0e7083b60572290eaebf41",
     "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.290cac318e83d12fb42e.css": "fa3277a4abd06028ba2731412114793a899ccd1c"
+    "/styles.7867c4a15fd582328673.css": "87a1737a80097b478ab58e6e818e99478f9732d9",
+    "/water-overlay.e813cb1ac43edcdabebb.png": "dcdd6738b3ec9fef975de5e15091269e3ae9aaee"
   },
   "navigationUrls": [
     {
