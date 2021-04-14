@@ -1,0 +1,117 @@
+div.work-experience {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(#2c90c4, #095080);
+  display: flex;
+  align-items: flex-end;
+
+  img.airplane {
+    position: absolute;
+    z-index: 1;
+    filter: brightness(0%);
+    opacity: 0.5;
+    width: 15vw;
+    bottom: -225vh;
+    transform: scaleX(-1);
+    left: -15vw;
+
+    @keyframes fly {
+      from { left: -15vw }
+      to { left: 100vw }
+    }
+    animation: fly 20s linear 0s infinite;
+  }
+
+  img.chicago {
+    z-index: 1;
+  }
+
+  i.fa-cloud {
+    color: white;
+    position: absolute;
+
+    @keyframes we-cloud-medium-start {
+      from { left: 0vw }
+      to { left: 100vw }
+    }
+
+    @keyframes we-cloud-medium {
+      from { left: -35vw }
+      to { left: 100vw }
+    }
+    
+    @keyframes we-cloud-big-start {
+      from { left: 75vw }
+      to { left: 100vw }
+    }
+
+    @keyframes we-cloud-big {
+      from { left: -20vw }
+      to { left: 100vw }
+    }
+
+    &.big {
+      font-size: 20vw;
+      z-index: 2;
+      left: 75vw;
+      opacity: 0.5;
+      bottom: -270vh;
+      animation: we-cloud-big-start 30s, we-cloud-big 90s 30s infinite;
+      animation-timing-function: linear;
+    }
+
+    &.medium {
+      font-size: 15vw;
+      z-index: 0;
+      opacity: 0.8;
+      bottom: -280vh;
+      animation: we-cloud-medium-start 90s, we-cloud-medium 90s 90s infinite;
+      animation-timing-function: linear;
+    }
+  }
+
+  h1 {
+    position: absolute;
+    bottom: calc(-200vh - 72pt);
+    right: 0;
+    text-align: right;
+    font-size: 40pt;
+    margin: 12pt;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: Futura;
+  }
+
+  div.experience {
+    z-index: 2;
+    right: 10px;
+    top: calc(310vh + 10px);
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    font-family: Futura;
+    align-items: center;
+    width: 40vw;
+    
+    div {
+      margin-right: 10px;
+    }
+
+    div:hover {
+      cursor: pointer;
+      filter: brightness(90%);
+    }
+
+    &.jkv {
+      top: calc(330vh + 10px);
+    }
+
+    img {
+      width: 10vw;
+    }
+  }
+}
