@@ -76,7 +76,7 @@ div.work-experience {
     bottom: calc(-200vh - 72pt);
     right: 0;
     text-align: right;
-    font-size: 40pt;
+    font-size: 24pt;
     margin: 12pt;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -85,20 +85,20 @@ div.work-experience {
 
   div.experience {
     z-index: 2;
-    right: 10px;
     top: calc(310vh + 10px);
     width: 100vw;
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     color: white;
     font-family: Futura;
     align-items: center;
-    width: 40vw;
     
     div {
-      margin-right: 10px;
+      h2, h3 {
+        font-size: 12pt;
+      }
     }
 
     div:hover {
@@ -111,7 +111,23 @@ div.work-experience {
     }
 
     img {
-      width: 10vw;
+      width: 25vw;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 48pt;
+    }
+
+    div.experience {
+      right: 10px;
+      width: 40vw;
+      justify-content: space-between;
+
+      img {
+        width: 10vw;
+      }
     }
   }
 }
