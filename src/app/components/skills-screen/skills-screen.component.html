@@ -1,6 +1,13 @@
 <div class="skills-screen">
   <ng-container *ngFor="let language of stars | keyvalue">
-    <div *ngIf="language.key != null" [class]="'language ' + language.key">
+    <div
+      *ngIf="language.key != null"
+      [class]="'language ' + language.key"
+      (mouseenter)="onMouseEnter(language.key)"
+      (mouseleave)="onMouseLeave()"
+      (click)="onClick(language.key)"
+      [ngClass]="{ 'active': activeBird === language.key }"
+    >
       <bird [color]="languageColors.get(language.key)"></bird>
       <div class="tooltip">
         <h2>{{ language.key }}</h2>
@@ -27,6 +34,7 @@
       </div>
     </div>
   </ng-container>
-  <h3>Hover over the birds</h3>
+  <h3 class="desktop">Hover over the birds</h3>
+  <h3 class="mobile">Click on the birds</h3>
   <h1>Skills/Projects</h1>
 </div>

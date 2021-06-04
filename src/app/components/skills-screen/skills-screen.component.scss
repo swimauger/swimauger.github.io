@@ -10,7 +10,7 @@ div.skills-screen {
     bottom: 0;
     right: 0;
     text-align: right;
-    font-size: 36pt;
+    font-size: 28pt;
     margin: 12pt;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -26,6 +26,10 @@ div.skills-screen {
     color: white;
     font-family: Futura;
     opacity: 0.5;
+
+    &.desktop {
+      display: none;
+    }
   }
 
   div.language {
@@ -76,7 +80,7 @@ div.skills-screen {
       display: none;
     }
 
-    &:hover {
+    &.active {
       animation-play-state: paused;
       z-index: 5;
       div.tooltip {
@@ -141,6 +145,16 @@ div.skills-screen {
   @media (min-width: 768px) {
     h1 {
       font-size: 64pt;
+    }
+
+    h3 {
+      &.desktop {
+        display: block;
+      }
+
+      &.mobile {
+        display: none;
+      }
     }
   }
 }

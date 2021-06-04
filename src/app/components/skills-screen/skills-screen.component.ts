@@ -16,8 +16,27 @@ export class SkillsScreenComponent implements OnInit {
     "Python": Array(4),
     "C++": Array(3)
   };
+  public activeBird: string = '';
 
   constructor(public languageColors: LanguageColorService) { }
+
+  onMouseEnter(language: string) {
+    if (window.innerWidth >= 768) {
+      this.activeBird = language;
+    }
+  }
+
+  onMouseLeave() {
+    if (window.innerWidth >= 768) {
+      this.activeBird = '';
+    }
+  }
+
+  onClick(language: string) {
+    if (window.innerWidth < 768) {
+      this.activeBird = this.activeBird === language ? '' : language;
+    }
+  }
 
   async ngOnInit(): Promise<void> {
     const response = await fetch('https://api.github.com/users/swimauger/repos');
